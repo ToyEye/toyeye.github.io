@@ -1,6 +1,8 @@
 export const theme = {
   colors: {
-    primaryTextColor: '#ffffff',
-    asideBgColor: 'grey',
+    primaryLightColor: '#ffffff',
+    primaryDarkColor: '#000000',
+
+    asideBgColor: '#092930',
   },
 };
