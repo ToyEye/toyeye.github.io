@@ -1,5 +1,11 @@
-const Section = () => {
-  return <div>Section</div>;
+import PropTypes from 'prop-types';
+
+import { SectionStyled } from './Section.styled';
+
+export const Section = ({ children }) => {
+  return <SectionStyled>{children}</SectionStyled>;
 };
 
-export default Section;
+Section.propTypes = {
+  children: PropTypes.node.isRequired,
+};
