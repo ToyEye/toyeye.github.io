@@ -10,3 +10,9 @@ export const Greetings = styled.p`
   text-align: center;
   font-size: 18px;
 `;
+
+export const WhoI = styled.h1`
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 0.02em;
+`;
