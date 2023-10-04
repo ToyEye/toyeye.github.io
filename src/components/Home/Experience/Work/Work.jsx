@@ -1,27 +1,45 @@
 import PropTypes from 'prop-types';
 
+import {
+  WorkTitle,
+  Period,
+  SubTitle,
+  AboutWorkList,
+  AboutWorkListItem,
+} from './Work.styled';
+
 const Work = ({ work }) => {
   return (
     <div>
-      <h3>
-        {work.position} <span>{work.company}</span>
-      </h3>
-      <p>{work.period}</p>
+      <WorkTitle>{work.position}</WorkTitle>
 
-      <p>Duties:</p>
-      <ul>
+      <WorkTitle>
+        <span>{work.company}</span>
+      </WorkTitle>
+      <Period>{work.period}</Period>
+
+      <SubTitle>Duties:</SubTitle>
+      <AboutWorkList>
         {work.duties.map(dutie => {
-          return <li key={dutie}>{dutie}</li>;
+          return (
+            <AboutWorkListItem key={dutie}>
+              <span> {dutie}</span>
+            </AboutWorkListItem>
+          );
         })}
-      </ul>
-      {work.achievements.lenght > 0 && (
+      </AboutWorkList>
+      {work.achievements.length > 0 && (
         <>
-          <p>Achievements:</p>
-          <ul>
+          <SubTitle>Achievements:</SubTitle>
+          <AboutWorkList>
             {work.achievements.map(achievement => {
-              return <li key={achievement}>{achievement}</li>;
+              return (
+                <AboutWorkListItem key={achievement}>
+                  <span>{achievement}</span>
+                </AboutWorkListItem>
+              );
             })}
-          </ul>
+          </AboutWorkList>
         </>
       )}
     </div>

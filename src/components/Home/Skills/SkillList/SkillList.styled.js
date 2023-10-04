@@ -11,4 +11,12 @@ export const SkillListStyled = styled.ul`
 
   list-style: circle;
   list-style-position: inside;
+
+  li {
+    color: ${({ theme }) => theme.colors.accentColorOpacity};
+
+    span {
+      color: ${({ theme }) => theme.colors.primaryDarkColor};
+    }
+  }
 `;

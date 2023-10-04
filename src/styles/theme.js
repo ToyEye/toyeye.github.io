@@ -5,5 +5,6 @@ export const theme = {
 
     asideBgColor: '#076b81',
     accentColor: '#076b81',
+    accentColorOpacity: '#076b8180',
   },
 };

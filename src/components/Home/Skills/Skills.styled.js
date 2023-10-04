@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 
 export const SkillsWrapper = styled.div`
-  display: flex;
-  gap: 120px;
-  justify-content: center;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  grid-gap: 40px 20px;
 `;
 
 export const SkillsTitle = styled.h2`

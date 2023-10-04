@@ -5,7 +5,9 @@ export const SkillList = ({ skills, lang = '' }) => {
   return (
     <SkillListStyled lang={lang}>
       {skills.map(skill => (
-        <li key={skill}>{skill}</li>
+        <li key={skill}>
+          <span> {skill}</span>
+        </li>
       ))}
     </SkillListStyled>
   );
