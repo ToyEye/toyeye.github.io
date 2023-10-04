@@ -10,7 +10,10 @@ const iconLinks = [
     icon: <BsLinkedin size={28} />,
   },
   { path: 'https://github.com/ToyEye', icon: <BsGithub size={28} /> },
-  { path: 'alexey.korotenko90@gmail.com', icon: <BiLogoGmail size={28} /> },
+  {
+    path: 'mailto:alexey.korotenko90@gmail.com',
+    icon: <BiLogoGmail size={28} />,
+  },
   { path: 'https://t.me/ToyEye', icon: <BsTelegram size={28} /> },
 ];
 

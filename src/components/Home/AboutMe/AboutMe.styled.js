@@ -38,4 +38,10 @@ export const DownloadLink = styled.a`
   color: ${({ theme }) => theme.colors.primaryLightColor};
   background-color: ${({ theme }) => theme.colors.accentColor};
   border-radius: 12px;
+
+  transition: 450ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+  &:is(:hover, :focus) {
+    background-color: ${({ theme }) => theme.colors.accentColorOpacity};
+  }
 `;

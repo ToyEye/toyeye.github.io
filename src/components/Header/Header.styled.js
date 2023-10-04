@@ -25,7 +25,7 @@ export const HeaderList = styled.ul`
   }
 
   li:nth-child(4) {
-    color: #0a66c2;
+    color: #609dda;
   }
 
   a {
