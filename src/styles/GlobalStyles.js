@@ -53,4 +53,13 @@ export const GlobalStyle = createGlobalStyle`
     color:inherit;
   }
 
+
+main{
+
+
+  @media screen and (min-width: 1280px) {
+    margin-left: 470px;
+  }
+}
+
 `;

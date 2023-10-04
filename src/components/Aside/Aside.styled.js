@@ -5,8 +5,9 @@ export const AsideStyled = styled.aside`
   display: none;
 
   @media screen and (min-width: 1280px) {
+    position: fixed;
     display: block;
-    width: 400px;
+    width: 270px;
     height: 100vh;
     padding: 150px 100px;
 

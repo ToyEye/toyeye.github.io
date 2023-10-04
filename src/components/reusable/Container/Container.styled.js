@@ -13,7 +13,8 @@ export const ContainerStyled = styled.div`
   }
 
   @media screen and (min-width: 1260px) {
-    width: 100%;
+    max-width: 100%;
+
     padding-left: 16px;
     padding-top: 16px;
   }
