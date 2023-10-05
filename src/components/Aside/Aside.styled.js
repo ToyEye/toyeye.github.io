@@ -2,16 +2,29 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const AsideStyled = styled.aside`
-  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 150px 100px;
+
+  transform: translateX(-100%);
+  transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+  background-color: ${({ theme }) => theme.colors.asideBgColor};
+
+  &.active {
+    transform: translateX(0);
+  }
 
   @media screen and (min-width: 1280px) {
     position: fixed;
     display: block;
     width: 270px;
     height: 100vh;
+    transform: translateX(0);
     padding: 150px 100px;
-
-    background-color: ${({ theme }) => theme.colors.asideBgColor};
   }
 `;
 
@@ -40,7 +53,7 @@ export const NavList = styled.ul`
 
 export const NavLinkStyled = styled(NavLink)`
   position: relative;
-
+  width: 200px;
   font-size: 26px;
   line-height: 1.17;
   color: ${({ theme }) => theme.colors.primaryLightColor};

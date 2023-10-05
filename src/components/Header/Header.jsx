@@ -1,8 +1,10 @@
+import { useContext } from 'react';
 import { BsLinkedin, BsGithub, BsTelegram } from 'react-icons/bs';
 import { BiLogoGmail } from 'react-icons/bi';
+import { GiHamburgerMenu } from 'react-icons/gi';
 
-import { HeaderStyled, HeaderList } from './Header.styled';
-// import { Container } from '/src/components/reusable';
+import { MyContext } from '/src/components/Context/Context';
+import { HeaderStyled, HeaderList, BurgerBtn } from './Header.styled';
 
 const iconLinks = [
   {
@@ -18,8 +20,17 @@ const iconLinks = [
 ];
 
 const Header = () => {
+  const { showModal, toggleValue } = useContext(MyContext);
+
+  const onClickMenuBtn = () => {
+    toggleValue(!showModal);
+  };
+
   return (
     <HeaderStyled>
+      <BurgerBtn onClick={onClickMenuBtn}>
+        <GiHamburgerMenu size={24} />
+      </BurgerBtn>
       <HeaderList>
         {iconLinks.map(({ path, icon }) => (
           <li key={path}>

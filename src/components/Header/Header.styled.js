@@ -2,10 +2,16 @@ import styled from 'styled-components';
 
 export const HeaderStyled = styled.header`
   position: absolute;
+  display: flex;
+  justify-content: space-between;
 
   width: 100%;
   z-index: 1;
   background-color: ${({ theme }) => theme.colors.primaryLightColor};
+
+  @media screen and (min-width: 1280px) {
+    justify-content: flex-end;
+  }
 `;
 
 export const HeaderList = styled.ul`
@@ -32,5 +38,23 @@ export const HeaderList = styled.ul`
     display: block;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+`;
+
+export const BurgerBtn = styled.button`
+  cursor: pointer;
+  padding: 10px;
+  background-color: transparent;
+
+  border: none;
+
+  transition: 350ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+  &:is(:focus, :hover) {
+    transform: scale(1.2);
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: none;
   }
 `;

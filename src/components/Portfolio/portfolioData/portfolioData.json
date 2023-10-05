@@ -5,7 +5,7 @@
     "pathOnGH": "https://github.com/GoWeb-Internship/be-better",
     "description": "Mobile-first adaptive landing page. Application for ordering coach services. Work in a team using Scrum.",
     "technologies": "Gatsby, Tailwindcss, Swiper, yup, i18next, react-hook-form, netlify cms",
-    "image": "/src/assets/images/be-better.jpg"
+    "image": "../../../images/be-better.jpg"
   },
   {
     "name": "Mimino",
@@ -13,7 +13,7 @@
     "pathOnGH": "https://github.com/ToyEye/mimino",
     "description": "Mobile-first adaptive. Application for ordering rooms in restarant-honel complex.",
     "technologies": "NextJS, Tailwindcss, Swiper, classnames",
-    "image": "../../../../public/images/mimino.jpg"
+    "image": "../../../images/mimino.jpg"
   },
   {
     "name": "Books Reading",
@@ -21,7 +21,7 @@
     "pathOnGH": "https://github.com/IlyaKaplan2002/node-react_project",
     "description": "Mobile-first adaptive. Application for keeping statistics of books read. Work in a team using Scrum.",
     "technologies": "HTML5, CSS3, SASS, React, Redux, API, NodeJS, Express, MongoDB",
-    "image": "../../../images/images/book-reading.jpg"
+    "image": "../../../images/book-reading.jpg"
   },
 
   {
