@@ -5,7 +5,7 @@
     "pathOnGH": "https://github.com/GoWeb-Internship/be-better",
     "description": "Mobile-first adaptive landing page. Application for ordering coach services. Work in a team using Scrum.",
     "technologies": "Gatsby, Tailwindcss, Swiper, yup, i18next, react-hook-form, netlify cms",
-    "image": "../../../images/images/be-better.jpg"
+    "image": "/src/assets/images/be-better.jpg"
   },
   {
     "name": "Mimino",
