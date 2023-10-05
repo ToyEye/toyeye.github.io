@@ -7,7 +7,7 @@ export const AsideStyled = styled.aside`
   left: 0;
   width: 100%;
   height: 100vh;
-  padding: 150px 100px;
+  padding: 150px 50px;
 
   transform: translateX(-100%);
   transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
