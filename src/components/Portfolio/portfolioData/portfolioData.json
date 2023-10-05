@@ -13,7 +13,7 @@
     "pathOnGH": "https://github.com/ToyEye/mimino",
     "description": "Mobile-first adaptive. Application for ordering rooms in restarant-honel complex.",
     "technologies": "NextJS, Tailwindcss, Swiper, classnames",
-    "image": "../../../images/mimino.jpg"
+    "image": "../../../../public/images/mimino.jpg"
   },
   {
     "name": "Books Reading",
