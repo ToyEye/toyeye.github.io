@@ -5,18 +5,18 @@ import {
   WhoI,
   About,
   DownloadLink,
-  // AvatarWrapper,
+  AvatarWrapper,
 } from './AboutMe.styled';
-// import avatar from '/src/assets/avatar.jpg';
+import avatar from '/src/assets/avatar.jpg';
 
 const AboutMe = () => {
   return (
     <Section>
       <Container>
-        {/* <AvatarWrapper>
+        <AvatarWrapper>
           <Avatar src={avatar} alt="Me" />
-        </AvatarWrapper> */}
-        <Avatar src="https://placehold.co/300x300?text=Hello+World" />
+        </AvatarWrapper>
+        {/* <Avatar src="https://placehold.co/300x300?text=Hello+World" /> */}
         <Greetings> Hello! My name is Alex</Greetings>
         <WhoI>
           I`m a front-end web developer. <br /> I can write clean code and
