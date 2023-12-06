@@ -1,8 +1,16 @@
 import styled from 'styled-components';
 
 export const Avatar = styled.img`
-  border-radius: 50%;
+  /* border-radius: 50%;
+  margin: 0 auto; */
+`;
+
+export const AvatarWrapper = styled.div`
   margin: 0 auto;
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 `;
 
 export const Greetings = styled.p`
