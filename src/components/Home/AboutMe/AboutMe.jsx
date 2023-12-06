@@ -7,7 +7,7 @@ import {
   DownloadLink,
   // AvatarWrapper,
 } from './AboutMe.styled';
-import avatar from '/src/assets/avatar.jpg';
+// import avatar from '/src/assets/avatar.jpg';
 
 const AboutMe = () => {
   return (
