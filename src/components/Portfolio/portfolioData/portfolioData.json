@@ -1,5 +1,13 @@
 [
   {
+    "name": "Counter",
+    "pathOnLive": "https://money-counter-nine.vercel.app",
+    "pathOnGH": "https://github.com/ToyEye/money-counter",
+    "description": "Applications for managing income and expenses.",
+    "technologies": "React, Styled-components, redux, TypeScript, firebase, formik",
+    "image": "../../../images/counter.jpg"
+  },
+  {
     "name": "Be Better",
     "pathOnLive": "https://be-better.today",
     "pathOnGH": "https://github.com/GoWeb-Internship/be-better",
